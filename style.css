@@ -15,9 +15,11 @@ body {
 	margin-bottom: 5px;
 	border: 0;
 	background-color: #F0F0F0;
+	font-size:18px;
 }
 
 #Len {
+	font-size:18px;
 	width: 170px;
 	border: 0;
 	background-color: #F0F0F0;
@@ -27,4 +29,5 @@ body {
 #But {
 	border: 0;
 	background-color: #FFECAD;
+	font-size:18px;
 }
