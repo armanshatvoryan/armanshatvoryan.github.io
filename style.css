@@ -1,5 +1,5 @@
 body {
-	font-family: Sans;
+	font-family: 'Droid Serif', arial;
 }
 
 #Content {
@@ -8,26 +8,57 @@ body {
 	width: 800px;
 	height: 200px;
 	text-align: center;
+	font-family: 'Droid Serif', arial;
+	color:#5E5D5D;
 }
 
 #Type,#Lev {
 	width: 170px;
-	margin-bottom: 5px;
 	border: 0;
 	background-color: #F0F0F0;
-	font-size:18px;
+	font-size:16px;
+	font-family: 'Droid Serif', arial;
+	color:#5E5D5D;
 }
 
 #Len {
-	font-size:18px;
+	font-size:16px;
 	width: 170px;
 	border: 0;
 	background-color: #F0F0F0;
 	margin-bottom: 5px;
+	font-family: 'Droid Serif', arial;
+	color:#5E5D5D;
 } 
 
 #But {
 	border: 0;
 	background-color: #FFECAD;
-	font-size:18px;
+	font-size:16px;
+	font-family: 'Droid Serif', arial;
+	color:#5E5D5D;
+}
+
+#Abs {
+	margin: 0;
+	display:block;
+	margin-bottom: 5px;
+}
+
+#Abs1 {
+	margin: 0;
+	display:block;
+	margin-bottom: 5px;
+	margin-left: 35px;
+}
+
+#End {
+	font-size:21px;
+}
+
+#Abs2 {
+	margin: 0;
+	display:block;
+	margin-bottom: 5px;
+	margin-left: -65px;
 }

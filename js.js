@@ -4,7 +4,7 @@ $(document).ready(function(e)
 				{
 						if($("#Type").val() != null && 
 							$("#Lev").val() != null &&
-							$("#Len").val() != "Квадратура (min 25)")
+							$("#Len").val() != "")
 							{check = true;}
 						else
 							{check =  false;}
@@ -59,7 +59,7 @@ $(document).ready(function(e)
 							}
 							var sumot = Math.floor((parseInt($("#Len").val()) * kof) - (parseInt($("#Len").val()) * kof/10));
 							var sumdo = Math.floor((parseInt($("#Len").val()) * kof) + (parseInt($("#Len").val()) * kof/15));
-							alert("Примерная цена работы составит от "+sumot+" и до "+sumdo);
+							$("#End").text("Примерная цена работы составит от "+sumot+" и до "+sumdo);
 						}
 						else
 						{
@@ -69,13 +69,13 @@ $(document).ready(function(e)
 								textMessage += "Некоторые поля были не заполнены";
 							}
 							if(check1 == false)
-								if(check == false && $("#Len").val() != "Квадратура (min 25)")
+								if(check == false && $("#Len").val() != "")
 									{
-										textMessage += " , слишком маленькая квадратура (мин 25)";
+										textMessage += " , слишком маленькая квадратура (Мин 25)";
 									}
-								else if ($("#Len").val() != "Квадратура (min 25)")
+								else if ($("#Len").val() != "")
 									{
-										textMessage += "слишком маленькая квадратура (мин 25)";
+										textMessage += "слишком маленькая квадратура (Мин 25)";
 									}
 							alert(textMessage);
 						}
