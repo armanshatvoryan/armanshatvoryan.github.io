@@ -1,5 +1,10 @@
 body {
-	font-family: 'Droid Serif', arial;
+	font-family: 'MyUniqueFont', arial;
+}
+
+@font-face {
+    font-family: MyUniqueFont;
+    src: url('droid-serif.ttf');
 }
 
 #Content {
@@ -8,7 +13,7 @@ body {
 	width: 800px;
 	height: 200px;
 	text-align: center;
-	font-family: 'Droid Serif', arial;
+	font-family: 'MyUniqueFont', arial;
 	color:#5E5D5D;
 }
 
@@ -17,7 +22,7 @@ body {
 	border: 0;
 	background-color: #F0F0F0;
 	font-size:16px;
-	font-family: 'Droid Serif', arial;
+	font-family: 'MyUniqueFont', arial;
 	color:#5E5D5D;
 }
 
@@ -27,7 +32,7 @@ body {
 	border: 0;
 	background-color: #F0F0F0;
 	margin-bottom: 5px;
-	font-family: 'Droid Serif', arial;
+	font-family: 'MyUniqueFont', arial;
 	color:#5E5D5D;
 } 
 
@@ -35,7 +40,7 @@ body {
 	border: 0;
 	background-color: #FFECAD;
 	font-size:16px;
-	font-family: 'Droid Serif', arial;
+	font-family: 'MyUniqueFont', arial;
 	color:#5E5D5D;
 }
 
