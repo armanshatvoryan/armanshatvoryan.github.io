@@ -8,7 +8,7 @@ $(document).ready(function(e)
 							{check = true;}
 						else
 							{check =  false;}
-						if(parseInt($("#Len").val()) >= 25)
+						if(parseInt($("#Len").val()) >= 5)
 							{check1 = true;}
 						else
 							{check1 = false;}
@@ -71,11 +71,11 @@ $(document).ready(function(e)
 							if(check1 == false)
 								if(check == false && $("#Len").val() != "")
 									{
-										textMessage += " , слишком маленькая квадратура (Мин 25)";
+										textMessage += " , минимальная площадь помещения 5 кв.м";
 									}
 								else if ($("#Len").val() != "")
 									{
-										textMessage += "слишком маленькая квадратура (Мин 25)";
+										textMessage += "Минимальная площадь помещения 5 кв.м";
 									}
 							alert(textMessage);
 						}
